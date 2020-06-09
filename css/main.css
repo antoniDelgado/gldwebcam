@@ -105,6 +105,37 @@ textarea {
 }
 
 
+/**newsletter**/
+
+.newsletter {
+    position: relative;
+    height: auto;
+}
+
+.newsletter::before {
+    background-image: url(../img/img/bg-newsletter.jpg);
+    content: '';
+}
+
+.newsletter .contenido {
+    padding: 100px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.newsletter .contenido p {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.newsletter .contenido h3 {
+    color: #ffffff;
+    font-size: 7vw;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -202,6 +233,15 @@ h3 {
 .boton.hollow:hover {
     background-color: white;
     color: #fe4918;
+}
+
+.boton.transparente {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.boton.transparente:hover {
+    border: 2px solid #fe4918;
 }
 
 ul {
