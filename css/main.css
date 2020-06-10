@@ -765,6 +765,7 @@ blockquote p {
     font-size: 1em!important;
     font-family: 'PT Sans', sans-serif;
     padding: 0 20px 0 65px;
+    color: black;
 }
 
 blockquote p::before {
@@ -807,6 +808,72 @@ blockquote p::before {
     display: block;
     text-transform: none;
     margin-top: 5px;
+}
+
+
+/**cuenta refresiva**/
+
+.cuenta-regresiva {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .cuenta-regresiva ul li {
+        width: 25%;
+        float: left;
+    }
+}
+
+
+/**footer**/
+
+footer {
+    background-color: #353535;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.contenedor>div {
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .contenedor>div {
+        width: 33.3%;
+        float: left;
+    }
+}
+
+footer h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+footer h3 span {
+    color: #fe4918;
+}
+
+.ultimos-tweets li {
+    margin-bottom: 10px;
+}
+
+.redes-sociales {
+    text-align: left;
+}
+
+.copyright {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 30px 0 0 0;
+    text-align: center;
 }
 
 
